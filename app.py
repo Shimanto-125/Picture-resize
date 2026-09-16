@@ -23,14 +23,14 @@ if uploaded_file is not None:
 
     st.subheader("Notun size dio")
 
-    new_width = st.number_input("Width (px)", min_value=1, value=1200, step=1)
+    new_width = st.number_input("Width (px)", min_value=1, value=1280, step=1)
     new_height = st.number_input("Height (px)", min_value=1, value=800, step=1)
 
     keep_ratio = st.checkbox(" Maintain Aspect ratio (image stretch/distort hobe na)", value=False)
 
     # If aspect ratio is maintained, recalc height based on width
     if keep_ratio:
-        aspect = orig_height / orig_width
+        aspect = 9 / 16
         new_height = int(new_width * aspect)
         st.info(f"Aspect ratio ontosare final size hobe: {new_width} x {new_height} px")
 
