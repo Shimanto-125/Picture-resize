@@ -1,15 +1,15 @@
 [theme]
-# Primary color (Jemon: slider, button er background, active elements)
-primaryColor = "#FF4B4B"
+# Primary color (Button, slider, active elements-er jonno bright color)
+primaryColor = "#1E88E5"
 
-# App er main background color
-backgroundColor = "#857A45"
+# App er main background color (Ghor Alok ba Dark dark black/grey)
+backgroundColor = "#0E1117"
 
-# Secondary background color (Jemon: sidebar, text input box)
-secondaryBackgroundColor = "#FFFFFF"
+# Secondary background color (Sidebar ba input box er background)
+secondaryBackgroundColor = "#262730"
 
-# Text er color
-textColor = "#31333F"
+# Text er color (Sada ba halka grey jate porte subidha hoy)
+textColor = "#FAFAFA"
 
-# Font style (Options: "sans serif", "serif", "monospace")
+# Font style
 font = "sans serif"
