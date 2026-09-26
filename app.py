@@ -6,7 +6,7 @@ st.set_page_config(page_title="Image Resizer", page_icon="🖼️", layout="cent
 
 # Background image set korar CSS code
 page_bg_img = """
-
+url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp6J1I9qtkSUQxPlIZcCpev1uIcKzZ3e4LYUMWEKPg0Q&s=10"
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
