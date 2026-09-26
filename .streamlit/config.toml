@@ -3,7 +3,7 @@
 primaryColor = "#FF4B4B"
 
 # App er main background color
-backgroundColor = "#F0F2F6"
+backgroundColor = "#0D1137"
 
 # Secondary background color (Jemon: sidebar, text input box)
 secondaryBackgroundColor = "#FFFFFF"
