@@ -6,7 +6,23 @@ st.set_page_config(page_title="Image Resizer", page_icon="🖼️", layout="cent
 
 # Background image set korar CSS code
 page_bg_img = """
-        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp6J1I9qtkSUQxPlIZcCpev1uIcKzZ3e4LYUMWEKPg0Q&s=10
+        <style>
+        [data-testid="stAppViewContainer"] {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp6J1I9qtkSUQxPlIZcCpev1uIcKzZ3e4LYUMWEKPg0Q&s=10");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        [data-testid="stHeader"] {
+            background: rgba(0, 0, 0, 0);
+        }
+        
+        [data-testid="stToolbar"] {
+            right: 2rem;
+        }
+</style>
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
