@@ -4,6 +4,13 @@ import io
 
 st.set_page_config(page_title="Image Resizer", page_icon="🖼️", layout="centered")
 
+# Background image set korar CSS code
+page_bg_img = """
+
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.title("🖼️ Image Resizer")
 st.write(
     "Upload the picture. After uploading the custom resize option is showed below. "
