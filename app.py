@@ -22,7 +22,7 @@ if uploaded_file is not None:
 
     st.image(image, caption=f"Original Image ({orig_width} x {orig_height} px)", use_container_width=True)
 
-    st.subheader("Notun size dio")
+    st.subheader("Enter the size")
 
     new_width = st.number_input("Width (px)", min_value=1, value=1280, step=1)
     new_height = st.number_input("Height (px)", min_value=1, value=720, step=1)
